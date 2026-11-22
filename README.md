@@ -63,29 +63,8 @@ A proposta do aplicativo é baseada na conexão entre trajetos, horários e usu�
 
 De maneira simplificada:
 
-Usuário  
-   │  
-   ▼  
-Cadastro/Login  
-   │  
-   ▼  
-Define origem, destino e horário  
-   │  
-   ▼  
-Sistema procura trajetos compatíveis  
-   │  
-   ├───────────────┐  
-   ▼               ▼  
-Passageiro      Motorista  
-   │               │  
-   └───────┬───────┘  
-           ▼  
-    Compatibilidade  
-           │  
-           ▼  
-    Compartilhamento  
-       do trajeto  
-
+Usuário  -> Cadastro/Login -> Define origem, destino e horário -> Sistema procura trajetos compatíveis -> Passageiro -> Compatibilidade  ->  Compartilhamento  
+       
 O sistema teria como base informações como:
 
 Local de origem;
